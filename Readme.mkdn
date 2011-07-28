@@ -43,7 +43,9 @@ Set an environment variable called REMOTE_SELENIUM to trigger your test suite on
 a remote Selenium server. More configuration details can be found in the env.rb on the remote Selenium server.
 You'll also want to set the environment variable REMOTE_SELENIUM_HOST to tell your test suite the location of the remote
 Selenium server you are hitting.
+
     * Example: export REMOTE_SELENIUM = true; export REMOTE_SELENIUM_HOST=http://selenium-grid.my-company
+
 There are a couple assumptions including that your remote selenium server is running on port 4444.
 Of course you change and customize this to your needs in env.rb.
 
@@ -69,5 +71,5 @@ Usage
      bundle exec cucumber feature/example.feature
 
      # to run a specific Scenario
-     bundle exec cucumber -n"As a user I should be able to go to the CafePress Homepage"
+     bundle exec cucumber -n"Search \"Functional Testing with Cucumber\" on Google"
 
