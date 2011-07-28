@@ -4,6 +4,7 @@ Feature: Google Search for "Functional Testing"
 
   @async_off
   Scenario: Search "Functional Testing with Cucumber" on Google
-    When I go to http://google.com
+    Given I go to http://google.com
     When I fill in "q" with "Functional Testing with Cucumber"
+    And I press "Google Search"
     Then I should see "Search Results"
