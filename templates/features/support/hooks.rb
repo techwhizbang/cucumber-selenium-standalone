@@ -1,3 +1,3 @@
-Before('@async_off') do
+Before('@resync_off') do
   page.driver.options[:resynchronize] = false
 end

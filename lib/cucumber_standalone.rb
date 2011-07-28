@@ -5,7 +5,7 @@ require 'fileutils'
 class CucumberStandalone < Thor::Group
   include Thor::Actions
 
-  VERSION = "0.0.1"
+  VERSION = "0.0.2"
 
   argument :dir_name
 
