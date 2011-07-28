@@ -37,7 +37,6 @@ class CucumberStandalone < Thor::Group
       template 'support/hooks.rb', 'support/hooks.rb'
       template 'support/paths.rb', 'support/paths.rb'
       template 'step_definitions/web_steps.rb'
-      template 'step_definitions/basic_steps.rb'
     end
   end
 

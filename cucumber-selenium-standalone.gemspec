@@ -7,13 +7,12 @@ Gem::Specification.new do |s|
   s.description      = %q{generates directory and required files for any type of project needing to test with Cucumber/Capybara/Selenium}
   s.homepage         = %q{http://github.com/techwhizbang/cucumber-selenium-standalone}
   s.version          = CucumberStandalone::VERSION
-  s.platform         = 'java'
   s.authors          = "Nick Zalabak"
   s.email            = %q{techwhizbang@gmail.com}
   s.rubygems_version = %q{1.3.7}
   s.date             = %q{2011-07-26}
   s.require_paths    = ["lib"]
-  s.files = ["bin/cucumber-standalone", "lib/cucumber_standalone.rb",
+  s.files = ["bin/cucumber-selenium-standalone", "lib/cucumber_standalone.rb",
              "templates/cucumber.yml", "templates/Gemfile",
              "templates/Rakefile"] + Dir.glob("templates/features/**/*")
   s.has_rdoc         = false
