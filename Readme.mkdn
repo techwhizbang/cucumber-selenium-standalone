@@ -44,7 +44,7 @@ a remote Selenium server. More configuration details can be found in the env.rb 
 You'll also want to set the environment variable REMOTE_SELENIUM_HOST to tell your test suite the location of the remote
 Selenium server you are hitting.
 
-    * Example: export REMOTE_SELENIUM = true; export REMOTE_SELENIUM_HOST=http://selenium-grid.my-company
+    * Example: export REMOTE_SELENIUM = true; export REMOTE_SELENIUM_HOST = http://selenium-grid.my-company
 
 There are a couple assumptions including that your remote selenium server is running on port 4444.
 Of course you change and customize this to your needs in env.rb.
