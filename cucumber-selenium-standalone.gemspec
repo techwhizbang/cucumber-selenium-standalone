@@ -19,14 +19,13 @@ Gem::Specification.new do |s|
   s.executables      = ["cucumber-selenium-standalone"]
 
   s.add_dependency("thor", "0.14.6")
-  s.add_dependency("rake", "0.8.7")
-  s.add_dependency('cucumber-rails', "0.4.1")
-  s.add_dependency("cucumber", "0.10.6")
+  s.add_dependency("rake", "0.9.2")
+  s.add_dependency('cucumber-rails', "1.0.2")
+  s.add_dependency("cucumber", "1.0.2")
   s.add_dependency("selenium-webdriver",  "0.2.2")
   s.add_dependency("capybara", "1.0")
   s.add_dependency("bundler", "~> 1.0.15")
-  s.add_dependency("rake", "0.8.7")
   s.add_dependency("nokogiri", "1.5.0")
-  s.add_dependency("rspec", "2.5.0")
+  s.add_dependency("rspec", "2.6.0")
 
 end
